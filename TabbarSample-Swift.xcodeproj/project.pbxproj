@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62586E6CC76911D604EB7885 /* Pods_TabbarSample_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CB27B3970B3139F84E9491 /* Pods_TabbarSample_Swift.framework */; };
 		90F4D90D1F41B000006C0934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D90C1F41B000006C0934 /* AppDelegate.swift */; };
 		90F4D90F1F41B000006C0934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D90E1F41B000006C0934 /* ViewController.swift */; };
 		90F4D9121F41B000006C0934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F4D9101F41B000006C0934 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		90F4D91A1F41B000006C0934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F4D9181F41B000006C0934 /* LaunchScreen.storyboard */; };
 		90F4D9251F41B000006C0934 /* TabbarSample_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D9241F41B000006C0934 /* TabbarSample_SwiftTests.swift */; };
 		90F4D9301F41B000006C0934 /* TabbarSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D92F1F41B000006C0934 /* TabbarSample_SwiftUITests.swift */; };
+		90F4D93E1F41B022006C0934 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D93D1F41B022006C0934 /* TabbarController.swift */; };
+		90F4D9451F42E680006C0934 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D9431F42E680006C0934 /* CollectionViewCell.swift */; };
+		90F4D9461F42E680006C0934 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F4D9441F42E680006C0934 /* CollectionViewCell.xib */; };
+		90F4D94B1F4443E1006C0934 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D94A1F4443E1006C0934 /* StoreViewController.swift */; };
+		90F4D98C1F45A7A4006C0934 /* AppleMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4D98A1F45A7A4006C0934 /* AppleMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA7D4995A7F914E786C63F2 /* Pods-TabbarSample-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarSample-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabbarSample-Swift/Pods-TabbarSample-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		55CB27B3970B3139F84E9491 /* Pods_TabbarSample_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabbarSample_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F4D9091F41B000006C0934 /* TabbarSample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabbarSample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F4D90C1F41B000006C0934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F4D90E1F41B000006C0934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		90F4D92B1F41B000006C0934 /* TabbarSample-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabbarSample-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F4D92F1F41B000006C0934 /* TabbarSample_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarSample_SwiftUITests.swift; sourceTree = "<group>"; };
 		90F4D9311F41B000006C0934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F4D93D1F41B022006C0934 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		90F4D9431F42E680006C0934 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		90F4D9441F42E680006C0934 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		90F4D94A1F4443E1006C0934 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		90F4D98A1F45A7A4006C0934 /* AppleMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicViewController.swift; sourceTree = "<group>"; };
+		BC2BBCE5CDCB37F97509F295 /* Pods-TabbarSample-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarSample-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabbarSample-Swift/Pods-TabbarSample-Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62586E6CC76911D604EB7885 /* Pods_TabbarSample_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284E177EBFB7A3D117080C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CB27B3970B3139F84E9491 /* Pods_TabbarSample_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90F4D9001F41B000006C0934 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				90F4D9231F41B000006C0934 /* TabbarSample-SwiftTests */,
 				90F4D92E1F41B000006C0934 /* TabbarSample-SwiftUITests */,
 				90F4D90A1F41B000006C0934 /* Products */,
+				AF66B2BFBEA8C0F50E629297 /* Pods */,
+				284E177EBFB7A3D117080C6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +125,17 @@
 			isa = PBXGroup;
 			children = (
 				90F4D90C1F41B000006C0934 /* AppDelegate.swift */,
+				90F4D93D1F41B022006C0934 /* TabbarController.swift */,
+				90F4D94A1F4443E1006C0934 /* StoreViewController.swift */,
 				90F4D90E1F41B000006C0934 /* ViewController.swift */,
+				90F4D9891F45A782006C0934 /* AppleMusicViewController */,
 				90F4D9101F41B000006C0934 /* Main.storyboard */,
 				90F4D9161F41B000006C0934 /* Assets.xcassets */,
 				90F4D9181F41B000006C0934 /* LaunchScreen.storyboard */,
 				90F4D91B1F41B000006C0934 /* Info.plist */,
 				90F4D9131F41B000006C0934 /* TabbarSample_Swift.xcdatamodeld */,
+				90F4D9431F42E680006C0934 /* CollectionViewCell.swift */,
+				90F4D9441F42E680006C0934 /* CollectionViewCell.xib */,
 			);
 			path = "TabbarSample-Swift";
 			sourceTree = "<group>";
@@ -128,6 +158,23 @@
 			path = "TabbarSample-SwiftUITests";
 			sourceTree = "<group>";
 		};
+		90F4D9891F45A782006C0934 /* AppleMusicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90F4D98A1F45A7A4006C0934 /* AppleMusicViewController.swift */,
+			);
+			path = AppleMusicViewController;
+			sourceTree = "<group>";
+		};
+		AF66B2BFBEA8C0F50E629297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7D4995A7F914E786C63F2 /* Pods-TabbarSample-Swift.debug.xcconfig */,
+				BC2BBCE5CDCB37F97509F295 /* Pods-TabbarSample-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90F4D9341F41B000006C0934 /* Build configuration list for PBXNativeTarget "TabbarSample-Swift" */;
 			buildPhases = (
+				471AAE690FDEF5F3AD951E77 /* [CP] Check Pods Manifest.lock */,
 				90F4D9051F41B000006C0934 /* Sources */,
 				90F4D9061F41B000006C0934 /* Frameworks */,
 				90F4D9071F41B000006C0934 /* Resources */,
+				C5AAA1090153E37B4FC6F747 /* [CP] Embed Pods Frameworks */,
+				D632BE648D25FBC0A6C6F517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +290,7 @@
 			files = (
 				90F4D91A1F41B000006C0934 /* LaunchScreen.storyboard in Resources */,
 				90F4D9171F41B000006C0934 /* Assets.xcassets in Resources */,
+				90F4D9461F42E680006C0934 /* CollectionViewCell.xib in Resources */,
 				90F4D9121F41B000006C0934 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,12 +311,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		471AAE690FDEF5F3AD951E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AAA1090153E37B4FC6F747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabbarSample-Swift/Pods-TabbarSample-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D632BE648D25FBC0A6C6F517 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabbarSample-Swift/Pods-TabbarSample-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90F4D9051F41B000006C0934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F4D9451F42E680006C0934 /* CollectionViewCell.swift in Sources */,
+				90F4D98C1F45A7A4006C0934 /* AppleMusicViewController.swift in Sources */,
 				90F4D90F1F41B000006C0934 /* ViewController.swift in Sources */,
+				90F4D94B1F4443E1006C0934 /* StoreViewController.swift in Sources */,
+				90F4D93E1F41B022006C0934 /* TabbarController.swift in Sources */,
 				90F4D90D1F41B000006C0934 /* AppDelegate.swift in Sources */,
 				90F4D9151F41B000006C0934 /* TabbarSample_Swift.xcdatamodeld in Sources */,
 			);
@@ -417,6 +520,7 @@
 		};
 		90F4D9351F41B000006C0934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA7D4995A7F914E786C63F2 /* Pods-TabbarSample-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGW4383NB8;
@@ -430,6 +534,7 @@
 		};
 		90F4D9361F41B000006C0934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2BBCE5CDCB37F97509F295 /* Pods-TabbarSample-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGW4383NB8;
@@ -518,6 +623,7 @@
 				90F4D9361F41B000006C0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F4D9371F41B000006C0934 /* Build configuration list for PBXNativeTarget "TabbarSample-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +632,7 @@
 				90F4D9391F41B000006C0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F4D93A1F41B000006C0934 /* Build configuration list for PBXNativeTarget "TabbarSample-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +641,7 @@
 				90F4D93C1F41B000006C0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
